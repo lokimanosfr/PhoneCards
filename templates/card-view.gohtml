@@ -1,0 +1,18 @@
+{{ define "card-view" }}
+    {{ template "header" }}
+
+        {{ template "jumbotron"}}
+        
+        <h1> 
+        {{if .ID}}
+            ID = {{.ID}}
+        {{ end }}
+        title = {{.Title}}
+        </h1>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, nostrum iste tempora non facere nam tenetur accusamus rerum aperiam harum, reprehenderit ea saepe unde mollitia! Odio enim veniam dolorem a.
+        </p>
+
+    {{ template "footer" }}
+{{ end }}

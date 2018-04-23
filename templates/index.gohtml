@@ -1,0 +1,22 @@
+{{ define "index" }} 
+
+{{ template "header" }}
+<main role="main">
+
+  {{ template "jumbotron"}}
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        {{ template "card" }} 
+        {{ template "card" }}
+         {{ template "card" }} 
+         {{ template "card" }}
+      </div>
+    </div>
+  </div>
+
+</main>
+
+{{ template "footer" }} 
+{{ end }}
